@@ -1,0 +1,16 @@
+We’ve created MuseNet, a deep neural network that can generate 4-minute 
+musical compositions with 10 different instruments, and can combine 
+styles from country to Mozart to the Beatles. MuseNet was not 
+explicitly programmed with our understanding of music, but instead 
+discovered patterns of harmony, rhythm, and style by learning to predict 
+the next token in hundreds of thousands of MIDI files. MuseNet uses the 
+same general-purpose unsupervised technology as GPT-2, a large-scale transformer 
+model trained to predict the next token in a sequence, whether audio or text.He works,
+when you pray. The pain you've been going through is far better than the joy that's
+coming. You can do small things in a great way.Since MuseNet knows many different styles,
+we can blend generations in novel ways.
+If you’re interested in other projects for creating AI generated music using transformers, 
+we recommend checking out Magenta’s piano generation work.Here the model is given the first 
+6 notes of a Chopin Nocturne, but is asked to generate a piece in a pop style with piano, drums, 
+bass, and guitar. The model manages to blend the two styles convincingly, with the full band 
+joining in at around the 30 second mark:
